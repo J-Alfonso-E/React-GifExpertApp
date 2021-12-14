@@ -7,12 +7,13 @@ export const AgregarCategoria = ({EnviarCategoria}) => { //Se recibe la funcion 
 
     const CambioValor = (e) => {
         SetValor(e.target.value);
+        //console.log('Evento Cambio de Valor');
     }
 
     const EnvioCategoria = (e) => {
         e.preventDefault();
-
         if(ValorEntrada.trim().length > 2){
+            
             EnviarCategoria(cats => [ValorEntrada, ...cats,]); //Cuando se recibe una funcion de Hook el Estado puede ser accedido de esta manera y agregar la nueva categoria
             SetValor('');
         }
@@ -23,6 +24,7 @@ export const AgregarCategoria = ({EnviarCategoria}) => { //Se recibe la funcion 
     return (
         <form onSubmit={EnvioCategoria}>
             <h2>Agregar Categoria</h2>
+            <p> {ValorEntrada} </p> {/* Valor de Prueba */}
                 <input
                 type='text'
                 value = {ValorEntrada}

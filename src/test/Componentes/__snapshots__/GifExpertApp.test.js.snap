@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas de GifExpertApp Listas de Categorias 1`] = `
+<Fragment>
+  <h2>
+    Gif Expert App
+  </h2>
+  <AgregarCategoria
+    EnviarCategoria={[Function]}
+  />
+   
+  <hr />
+  <ol>
+    <GifGrid
+      categoria="Tales Arise"
+      key="Tales Arise"
+    />
+    <GifGrid
+      categoria="Gears 5"
+      key="Gears 5"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`Pruebas de GifExpertApp SnapShot pagina Principal 1`] = `
+<Fragment>
+  <h2>
+    Gif Expert App
+  </h2>
+  <AgregarCategoria
+    EnviarCategoria={[Function]}
+  />
+   
+  <hr />
+  <ol />
+</Fragment>
+`;

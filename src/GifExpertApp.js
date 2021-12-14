@@ -3,9 +3,10 @@ import { AgregarCategoria } from "./Componentes/AgregarCategoria";
 import { GifGrid } from "./Componentes/GifGrid";
 
 
-const GifExpertApp = () => {
+const GifExpertApp = ({ CatPredeterminadas = []}) => {
 
-    const [categorias, setCategorias] = useState(['Halo Infinite']);
+    //const [categorias, setCategorias] = useState(['Halo Infinite']);
+    const [categorias, setCategorias] = useState(CatPredeterminadas);
     
 
     /*const AgregarCategorias = () => {

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mostrando las Imagenes Prueba de imagenes 1`] = `
+<div
+  className="card animate__fadeInDown"
+>
+  <img
+    alt="Master Chief Halo GIF by Xbox"
+    className="card animate__bounceIn"
+    src="https://media4.giphy.com/media/b4ab9TBk9Ornvrt9W8/giphy-downsized-medium.gif?cid=4e4c6c79eazgluaod3tfwrerbs3v77bfd6uivr8mkwsl357h&rid=giphy-downsized-medium.gif&ct=g"
+  />
+  <p
+    className="card"
+  >
+    Master Chief Halo GIF by Xbox
+  </p>
+</div>
+`;

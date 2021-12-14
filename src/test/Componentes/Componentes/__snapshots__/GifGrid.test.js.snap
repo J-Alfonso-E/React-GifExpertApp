@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas de GifGrid Snapshot de GifGrid Vacio 1`] = `
+<Fragment>
+  <h3>
+    Tales Arisen
+  </h3>
+  Cargando
+   
+  <div
+    className="card-grid animate__bounceIn"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas de GifGrid Snapshot de GifGrid con un objeto 1`] = `
+<Fragment>
+  <h3>
+    Tales Arisen
+  </h3>
+   
+  <div
+    className="card-grid animate__bounceIn"
+  >
+    <GifGridItem
+      id="123"
+      key="123"
+      title="Titulo de Prueba"
+      url="https://localhost/cosa.jpg"
+    />
+  </div>
+</Fragment>
+`;
